@@ -1,4 +1,5 @@
 
 class PalindromeChecker:
-    def check_palindrome(self):
-        print("checking")
+    @staticmethod
+    def check_palindrome(word):
+        return True
