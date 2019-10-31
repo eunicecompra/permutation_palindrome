@@ -1,16 +1,17 @@
-import unittest
+import pytest
 
 from palindrome_checker import PalindromeChecker
 
 
-class PalindromeCheckerTest(unittest.TestCase):
-    def test_palindrome_checker_class(self):
-        self.assertIsInstance(PalindromeChecker(), PalindromeChecker, "class exists")
+def test_palindrome_checker_class():
+    assert isinstance(PalindromeChecker(), PalindromeChecker)
 
-    def test_check_palindrome_true(self):
-        result = PalindromeChecker.check_palindrome("civic")
-        self.assertTrue(result)
 
-    def test_check_palindrome_false(self):
-        result = PalindromeChecker.check_palindrome("civil")
-        self.assertFalse(result)
+def test_check_palindrome():
+    result = PalindromeChecker.check_palindrome("civic")
+    assert result
+
+
+def test_check_palindrome_false():
+    result = PalindromeChecker.check_palindrome("civil")
+    assert not result
