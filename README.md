@@ -1,4 +1,4 @@
-#Palindrome Checker in Python
+# Palindrome Checker in Python
 
 Problem from [Interview Cake](https://www.interviewcake.com/)
 
@@ -16,13 +16,13 @@ Problem from [Interview Cake](https://www.interviewcake.com/)
 >
 >If you had this thought, read the question again carefully. We're asking if any permutation of the string is a palindrome. Spend some extra time ensuring you fully understand the question before starting. Jumping in with a flawed understanding of the problem doesn't look good in an interview.
 
-##How to run the test
+## How to run the test
 
 Prerequisite: pytest - for parametrized testing
 ```
 pytest palindrome_checker_test.py
 ```
 
-##Library Versions
+## Library Versions
 - Python 3.7.0
 - pytest-5.2.1
