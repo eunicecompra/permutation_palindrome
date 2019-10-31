@@ -6,6 +6,7 @@ from palindrome_checker import PalindromeChecker
 testdata = [
     ("civic", True),
     ("ivicc", True),
+    ("BUB", True),
     ("civil", False),
     ("livci", False)
 ]
