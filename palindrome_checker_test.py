@@ -10,9 +10,11 @@ testdata = [
     ("10801", True),
     ("8racecar8", True),
     ("redder", True),
+    ("", True),
+    ("b", True),
     ("civil", False),
     ("livci", False),
-    ("palindrome", False)
+    ("palindrome", False),
 ]
 
 
