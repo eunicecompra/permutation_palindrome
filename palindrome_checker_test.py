@@ -7,6 +7,7 @@ testdata = [
     ("civic", True),
     ("ivicc", True),
     ("BUB", True),
+    ("10801", True),
     ("civil", False),
     ("livci", False)
 ]
