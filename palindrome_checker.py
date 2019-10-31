@@ -10,7 +10,7 @@ class PalindromeChecker:
             else:
                 odd_letter_set.add(letter)
 
-        if len(odd_letter_set) == 1:
+        if len(odd_letter_set) <= 1:
             result = True
 
         return result
