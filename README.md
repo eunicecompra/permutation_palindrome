@@ -27,11 +27,17 @@ By iterating the characters of the given word, a character that is not in the se
 
 ## How to run the test
 
+### Native
 Prerequisite: pytest - for parametrized testing
 ```
 pytest palindrome_checker_test.py
 ```
+### Docker
+```
+docker image build -t palindrome_checker .
+```
 
 ## Library Versions
-- Python 3.7.0
-- pytest-5.2.1
+- Python 3.7.0 or above
+- pytest-5.2.1 or above
+
